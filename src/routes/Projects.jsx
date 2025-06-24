@@ -11,7 +11,7 @@ const Projects = () => {
       title: "Movie Recommender App",
       description:
         "My movie recommendation app, a personalized solution for discovering new films tailored to your tastes and preferences. This app is designed to simplify the daunting task of choosing what to watch by providing users with curated recommendations based on their viewing history, genre preferences, ratings, and more.",
-      link: "https://github.com/pooja-js02/cinemafy",
+      link: "https://pooja-js02.github.io/cinemafy/",
     },
     {
       id: 2,
