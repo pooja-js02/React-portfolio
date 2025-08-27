@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/React-portfolio/static/css/main.0a3042f7.css",
-    "main.js": "/React-portfolio/static/js/main.f86ae7ab.js",
+    "main.css": "/React-portfolio/static/css/main.d6f15ff1.css",
+    "main.js": "/React-portfolio/static/js/main.75262613.js",
     "static/media/gif": "/React-portfolio/static/media/f7a495ea274eeecab0daf8a7788299b8.afc057303c8c3d85909a.gif",
     "static/media/intro.gif": "/React-portfolio/static/media/intro.a50a087d3e8aad894f33.gif",
     "static/media/contact.png": "/React-portfolio/static/media/contact.df9d94ff559b2f3ee019.png",
     "static/media/image_processing20200727-27132-19pgvfp.gif": "/React-portfolio/static/media/image_processing20200727-27132-19pgvfp.e178d983b2894cf49f9b.gif",
+    "static/media/pokemeon.gif": "/React-portfolio/static/media/pokemeon.925c0502844c1a91c6bc.gif",
     "static/media/dp.jpg": "/React-portfolio/static/media/dp.5866f4dc1f13ea0fb698.jpg",
-    "static/media/Resume__PoojaJoshi.pdf": "/React-portfolio/static/media/Resume__PoojaJoshi.80aa6216a5fc72f604f4.pdf",
+    "static/media/Resume__PoojaJoshi.pdf": "/React-portfolio/static/media/Resume__PoojaJoshi.9cfe055368d6379cc384.pdf",
+    "static/media/giphy.gif": "/React-portfolio/static/media/giphy.d5db821b749952dc5925.gif",
     "static/media/wdev.jpg": "/React-portfolio/static/media/wdev.073e2795b5ac95f17b0d.jpg",
     "index.html": "/React-portfolio/index.html",
-    "main.0a3042f7.css.map": "/React-portfolio/static/css/main.0a3042f7.css.map",
-    "main.f86ae7ab.js.map": "/React-portfolio/static/js/main.f86ae7ab.js.map"
+    "main.d6f15ff1.css.map": "/React-portfolio/static/css/main.d6f15ff1.css.map",
+    "main.75262613.js.map": "/React-portfolio/static/js/main.75262613.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a3042f7.css",
-    "static/js/main.f86ae7ab.js"
+    "static/css/main.d6f15ff1.css",
+    "static/js/main.75262613.js"
   ]
 }
