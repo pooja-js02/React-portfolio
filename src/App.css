@@ -1,0 +1,21 @@
+.App {
+
+    color: white; /* Light text */
+    min-height: 100vh; /* Ensure it covers the full viewport height */
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: #0c0c1c;
+  }
+  .body{
+  overflow-y: scroll; /* Ensures scrolling is possible */
+  scrollbar-width: none; /* Hides scrollbar for Firefox */
+  -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+display: none; /* Hides scrollbar for Chrome, Safari, and Opera */
+}
+
+
+

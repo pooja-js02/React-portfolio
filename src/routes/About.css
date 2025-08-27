@@ -1,0 +1,157 @@
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; /* Ensures proper alignment on smaller screens */
+    min-height: 100vh;
+    background-color: #0B1120;
+    padding: 3rem 5%;
+    color: white;
+    gap: 3rem;
+  }
+
+  .left-container{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .profile-image {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 10px rgba(73, 17, 91, 0.1);
+  }
+  
+  .right-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    text-align: left;
+  }
+
+  .about-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .highlight {
+    background-image: linear-gradient(to right, #f6cbef, #a826ee);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-align: justify;
+  }
+  
+  .about-subtitle {
+    font-size: 2rem;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #f6cbef, #a826ee);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-align: justify;
+    margin-bottom: 1rem;
+  }
+  
+  .about-text {
+    font-size: 1.2rem;
+    color: #bbb;
+    line-height: 1.6;
+  }
+  
+  .download-btn {
+    margin-top: 1.5rem;
+    padding: 0.8rem 1.8rem;
+    background-color: rgba(125, 24, 184, 0.553);
+    color: white;
+    text-decoration:none;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .download-btn:hover {
+    background-color:  #a826ee;
+    transform: translateY(-2px);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 992px) {
+    .about-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .right-container {
+      max-width: 100%;
+      text-align: center;
+       margin-top: -100px;
+    }
+  
+    .about-text {
+      font-size: 1.1rem;
+      text-align: justify;
+    }
+  
+    .download-btn {
+      margin: auto;
+    }
+  }
+@media (max-width: 768px ) and (min-width: 320px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 2%;
+  }
+
+  .profile-image {
+    width: 70%; /* Reduce the image size further */
+    max-width: 290px;
+    margin-bottom: 1.5rem;
+  }
+
+  .about-title {
+    font-size: 2rem; /* Slightly smaller */
+    margin-bottom: 1rem;
+  }
+
+  .about-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: -10px;
+  }
+
+  .about-text {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+    text-align: center; /* Ensure proper alignment */
+  }
+
+  .download-btn {
+    padding: 0.7rem 1.2rem;
+    font-size: 0.9rem;
+    margin-top: 1.5rem;
+  }
+}
+
+@media (max-width: 642px ) and (min-width: 320px) {
+
+  .about-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    margin-top: -10px;
+  }
+
+  .about-text {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+    text-align: center; /* Ensure proper alignment */
+  }
+}
